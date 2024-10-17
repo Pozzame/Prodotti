@@ -1,0 +1,5 @@
+[
+    { "Name": "Laptop", "Description": "A powerful laptop", "Price": 1000, "ImageUrl": "/images/laptop.jpg", "CategoryId": 1 },
+    { "Name": "Smartphone", "Description": "Latest model smartphone", "Price": 800, "ImageUrl": "/images/smartphone.jpg", "CategoryId": 1 }
+  ]
+  
