@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 namespace Prodotti.Data;
 
@@ -21,5 +22,10 @@ public class ApplicationDbContext : IdentityDbContext
             new Category { Id = 2, Name = "Books" },
             new Category { Id = 3, Name = "Clothing" }
         );
+
+        var json = File.ReadAllText("products.json");
+        var products = JsonConvert.DeserializeObject<List<Product>>(json);
+
+        builder.Entity<Product>().HasData(products);
     }
 }

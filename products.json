@@ -1,5 +1,162 @@
 [
-    { "Name": "Laptop", "Description": "A powerful laptop", "Price": 1000, "ImageUrl": "/images/laptop.jpg", "CategoryId": 1 },
-    { "Name": "Smartphone", "Description": "Latest model smartphone", "Price": 800, "ImageUrl": "/images/smartphone.jpg", "CategoryId": 1 }
-  ]
-  
+  {
+    "Id": 1,
+    "Name": "Laptop",
+    "Description": "A high-performance laptop for professionals.",
+    "Price": 1500,
+    "ImageUrl": "/images/laptop.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 2,
+    "Name": "Smartphone",
+    "Description": "A sleek smartphone with excellent camera features.",
+    "Price": 800,
+    "ImageUrl": "/images/smartphone.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 3,
+    "Name": "Book - Programming in C#",
+    "Description": "Comprehensive guide to learn C# programming.",
+    "Price": 40,
+    "ImageUrl": "/images/book-csharp.jpg",
+    "CategoryId": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Tablet",
+    "Description": "A lightweight tablet ideal for entertainment and productivity.",
+    "Price": 600,
+    "ImageUrl": "/images/tablet.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 5,
+    "Name": "Wireless Headphones",
+    "Description": "Noise-canceling wireless headphones with long battery life.",
+    "Price": 200,
+    "ImageUrl": "/images/headphones.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 6,
+    "Name": "Toy Car",
+    "Description": "Remote-controlled toy car for kids.",
+    "Price": 50,
+    "ImageUrl": "/images/toy-car.jpg",
+    "CategoryId": 3
+  },
+  {
+    "Id": 7,
+    "Name": "Fitness Tracker",
+    "Description": "A wristband tracker to monitor your daily activity and health.",
+    "Price": 120,
+    "ImageUrl": "/images/fitness-tracker.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 8,
+    "Name": "Book - Learn Python",
+    "Description": "An in-depth book for mastering Python programming.",
+    "Price": 45,
+    "ImageUrl": "/images/book-python.jpg",
+    "CategoryId": 2
+  },
+  {
+    "Id": 9,
+    "Name": "Smartwatch",
+    "Description": "A stylish smartwatch with fitness and notification features.",
+    "Price": 300,
+    "ImageUrl": "/images/smartwatch.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 10,
+    "Name": "Book - Web Development with HTML and CSS",
+    "Description": "Learn how to build modern websites using HTML and CSS.",
+    "Price": 35,
+    "ImageUrl": "/images/book-webdev.jpg",
+    "CategoryId": 2
+  },
+  {
+    "Id": 11,
+    "Name": "Gaming Console",
+    "Description": "A next-gen gaming console for immersive experiences.",
+    "Price": 500,
+    "ImageUrl": "/images/gaming-console.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 12,
+    "Name": "Action Figure",
+    "Description": "A collectible action figure from your favorite movie.",
+    "Price": 75,
+    "ImageUrl": "/images/action-figure.jpg",
+    "CategoryId": 3
+  },
+  {
+    "Id": 13,
+    "Name": "Bluetooth Speaker",
+    "Description": "Portable speaker with powerful sound quality.",
+    "Price": 150,
+    "ImageUrl": "/images/bluetooth-speaker.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 14,
+    "Name": "Toy Robot",
+    "Description": "Interactive robot toy with multiple functions.",
+    "Price": 90,
+    "ImageUrl": "/images/toy-robot.jpg",
+    "CategoryId": 3
+  },
+  {
+    "Id": 15,
+    "Name": "E-Reader",
+    "Description": "An e-reader device for reading e-books on the go.",
+    "Price": 130,
+    "ImageUrl": "/images/e-reader.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 16,
+    "Name": "Puzzle Game",
+    "Description": "A 1000-piece puzzle for adults and kids.",
+    "Price": 25,
+    "ImageUrl": "/images/puzzle-game.jpg",
+    "CategoryId": 3
+  },
+  {
+    "Id": 17,
+    "Name": "Gaming Mouse",
+    "Description": "High-precision mouse designed for gaming.",
+    "Price": 70,
+    "ImageUrl": "/images/gaming-mouse.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 18,
+    "Name": "Book - Data Science Essentials",
+    "Description": "A beginner's guide to understanding data science.",
+    "Price": 50,
+    "ImageUrl": "/images/book-datascience.jpg",
+    "CategoryId": 2
+  },
+  {
+    "Id": 19,
+    "Name": "Drone",
+    "Description": "A lightweight drone with camera capabilities.",
+    "Price": 400,
+    "ImageUrl": "/images/drone.jpg",
+    "CategoryId": 1
+  },
+  {
+    "Id": 20,
+    "Name": "LEGO Set",
+    "Description": "Build your own world with this LEGO set.",
+    "Price": 100,
+    "ImageUrl": "/images/lego-set.jpg",
+    "CategoryId": 3
+  }
+]
